@@ -320,7 +320,7 @@ dependencies = [
 
 [metadata]
 lock_version = "3.1"
-content_hash = "sha256:1aca3ae746e2f557546c7dfa4cf69dded6928da4d6955bf4b8f94628e7dd5c91"
+content_hash = "sha256:026344c114c91f2d52074ba5ff5d21449b5ea34e380584c650b91d0851ae5268"
 
 [metadata.files]
 "arpeggio 1.10.2" = [

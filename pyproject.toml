@@ -6,8 +6,8 @@ authors = [
     {name = "pasmon", email = "no_reply@gmail.com"},
 ]
 dependencies = [
-    "pulumi>=3.0.0",
-    "pulumi-kubernetes>=3.7.0",
+    "pulumi>=3.27.0",
+    "pulumi-kubernetes>=3.18.0",
     "pulumi-kubernetes-cert-manager>=0.0.1",
 ]
 requires-python = ">=3.8"
@@ -29,7 +29,7 @@ lint = [
     "yamllint>=1.26.3",
     "flake8>=4.0.1",
     "gitlint>=0.17.0",
-    "pylint>=2.12.2",
+    "pylint>=2.13.4",
 ]
 [build-system]
 requires = ["pdm-pep517"]
