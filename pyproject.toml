@@ -6,8 +6,8 @@ authors = [
     {name = "pasmon", email = "no_reply@gmail.com"},
 ]
 dependencies = [
-    "pulumi<4.0.0,>=3.0.0",
-    "pulumi-kubernetes<4.0.0,>=3.7.0",
+    "pulumi>=3.0.0",
+    "pulumi-kubernetes>=3.7.0",
     "pulumi-kubernetes-cert-manager>=0.0.1",
 ]
 requires-python = ">=3.8"
@@ -23,7 +23,6 @@ homepage = ""
 name = "pypi"
 url = "https://pypi.python.org/pypi"
 verify_ssl = true
-
 
 [tool.pdm.dev-dependencies]
 lint = [
