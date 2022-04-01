@@ -8,6 +8,8 @@ pulumi-kubernetes-cert-manager = "*"
 pulumi-kubernetes = "*"
 
 [dev-packages]
+pylint = "*"
+flake8 = "*"
 
 [requires]
 python_version = "3.8"
