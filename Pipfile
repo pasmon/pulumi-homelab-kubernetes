@@ -10,6 +10,7 @@ pulumi-kubernetes = "*"
 [dev-packages]
 pylint = "*"
 flake8 = "*"
+typing-extensions = "*"
 
 [requires]
 python_version = "3.8"
