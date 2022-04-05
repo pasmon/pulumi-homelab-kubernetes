@@ -48,7 +48,7 @@ protobuf==3.19.4
 pulumi==3.27.0
 pulumi-kubernetes==3.18.0
 pulumi-kubernetes-cert-manager==0.0.1
-py==1.8.1
+py==1.10.0
 pycodestyle==2.8.0
 pydantic==1.8.2
 pyflakes==2.4.0
