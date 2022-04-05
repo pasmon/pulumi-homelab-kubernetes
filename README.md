@@ -1,3 +1,6 @@
+![CI Pipeline](https://github.com/pasmon/pulumi-homelab-kubernetes/actions/workflows/ci.yml/badge.svg)
+![Code Analysis](https://github.com/pasmon/pulumi-homelab-kubernetes/actions/workflows/codeql-analysis.yml/badge.svg)
+
 # Homelab with Python and Pulumi
 
 I used Ansible (https://www.ansible.com/) to configure basic things like users and firewall, and to install
