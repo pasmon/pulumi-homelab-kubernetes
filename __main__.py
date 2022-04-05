@@ -14,16 +14,24 @@ from pulumi_kubernetes_cert_manager import CertManager, ReleaseArgs, CertManager
 
 
 config = pulumi.Config()
-email = config.require('email')
-dns_token = config.require('dns_token')
-domain = config.require('domain')
-domain_dashed = domain.replace('.', '-')
-traefik_dashboard_users = config.require('traefik_dashboard_users')
+if config.require('environment') != 'test':
+    email = config.require('email')
+    dns_token = config.require('dns_token')
+    domain = config.require('domain')
+    traefik_dashboard_users = config.require('traefik_dashboard_users')
 
-metallb_configmap = ConfigFile(
-    "metallb_configmap",
-    file="external/metallb-configmap.yaml"
-)
+    metallb_configmap = ConfigFile(
+        "metallb_configmap",
+        file="external/metallb-configmap.yaml"
+    )
+else:
+    email = 'no_reply@example.com'
+    dns_token = 'somethingsomething'
+    domain = 'example'
+    traefik_dashboard_users = 'YWRtaW46JGFwcjEkYm1XRFRuVkEkU3VsUk1YbTRtL2NrTnpqMDVuS21UMAoK'
+
+domain_dashed = domain.replace('.', '-')
+
 
 # Create a sandbox namespace.
 ns_name = 'cert-manager'

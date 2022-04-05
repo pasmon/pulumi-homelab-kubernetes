@@ -1,0 +1,4 @@
+name: homelab
+runtime:
+  name: python
+description: Basic Kubernetes setup for homelab
