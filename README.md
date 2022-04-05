@@ -33,6 +33,14 @@ pip3 install pdm
 pdm install
 
 ### Configure private settings
+# Create passphrase for Pulumi
+export PULUMI_CONFIG_PASSPHRASE='<your awesome passphrase>'
+
+# Use a local Pulumi state file
+pdm run pulumi login --local
+
+# Create a Pulumi stack
+pdm run pulumi stack init
 
 # Create Traefik dashboard user and password
 ADMINPASS=$(htpasswd -nb <your username> '<your awesome password>' | openssl base64)
