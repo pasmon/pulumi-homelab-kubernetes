@@ -16,6 +16,7 @@ Basic stack from this repository:
   - Traefik for ingress: https://traefik.io/
   - cert-manager for wildcard SSL certificates from Let's Encrypt: https://cert-manager.io/
   - Argo CD for installing applications to Kubernetes: https://argoproj.github.io/cd/
+    - cdk8s (https://cdk8s.io/) plugin enabled by container image: https://github.com/pasmon/argocd-cdk8s-plugin
 
 Applications to be installed by Argo CD:
 - Prometheus
