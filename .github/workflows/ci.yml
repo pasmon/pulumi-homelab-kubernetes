@@ -23,7 +23,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v3
       - name: Create k8s Kind Cluster
-        uses: helm/kind-action@v1.4.0
+        uses: helm/kind-action@v1.5.0
       - run: python3 -m pip install pipenv
       - run: pipenv install
       - run: export PULUMI_CONFIG_PASSPHRASE=1234567890
