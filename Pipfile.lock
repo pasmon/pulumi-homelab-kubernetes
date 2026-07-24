@@ -430,11 +430,12 @@
         },
         "setuptools": {
             "hashes": [
-                "sha256:57f6f22bde4e042978bcd50176fdb381d7c21a9efa4041202288d3737a0c6a54",
-                "sha256:a7620757bf984b58deaf32fc8a4577a9bbc0850cf92c20e1ce41c38c19e5fb75"
+                "sha256:025bccbbf0fa05b6192bc64ae1e7b16e001fd6d6d4d5de03c97b1c1ade523bef",
+                "sha256:29b23c360f22f414dc7336bb39178cc7bcbf6021ed2733cde173f09dba19abb3"
             ],
-            "markers": "python_version >= '3.7'",
-            "version": "==65.6.3"
+            "index": "pypi",
+            "markers": "python_version >= '3.10'",
+            "version": "==83.0.0"
         },
         "tomli": {
             "hashes": [
