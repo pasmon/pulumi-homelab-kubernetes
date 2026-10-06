@@ -27,7 +27,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v7
       - name: Create k8s Kind Cluster
-        uses: helm/kind-action@v1.15.0
+        uses: helm/kind-action@v1.15.1
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
